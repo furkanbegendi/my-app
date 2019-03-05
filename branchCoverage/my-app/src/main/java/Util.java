@@ -2,7 +2,7 @@ public class Util {
 
   boolean compute(int... args) {
     if (args.length == 1) {
-      return false; 
+      return false;
     }
     if (args.length %2 == 0) {
       return false;
